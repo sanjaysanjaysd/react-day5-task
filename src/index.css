@@ -1,0 +1,116 @@
+/* index.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #aef0a3;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.todoapp {
+  background-color: #e6f601;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(183, 168, 168, 0.1);
+  padding: 20px;
+}
+
+.todoapp h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #c7f10b;
+}
+
+.add-todo {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.add-todo input[type="text"],
+.add-todo textarea,
+.add-todo select {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #f40404;
+  border-radius: 3px;
+}
+
+.add-todo button {
+  padding: 10px 20px;
+  background-color: #ad0c8d;
+  color: #e70707;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-todo button:hover {
+  background-color: #e7edea;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: #555;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter button:hover {
+  background-color: #160101;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  background-color: #cc0404;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(23, 11, 156, 0.1);
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.todo-item.completed {
+  background-color: #c1541a;
+}
+
+.todo-item h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.todo-item p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.actions button {
+  padding: 6px 12px;
+  background-color: transparent;
+  border: 1px solid #d50303;
+  border-radius: 3px;
+  color: #851212;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.actions button:hover {
+  background-color: #111010;
+}
